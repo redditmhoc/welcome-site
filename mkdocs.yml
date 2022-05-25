@@ -1,1 +1,38 @@
-site_name: My Docs
+# Project Information
+site_name: Welcome to /r/MHoC
+site_url: https://redditmhoc.github.io/welcome-site
+copyright: For use only in relation to the /r/MHoC Reddit community.
+repo_url: https://github.com/redditmhoc/welcome-site
+repo_name: redditmhoc/welcome-site
+edit_uri: edit/main/docs
+
+# Configuration
+theme:
+  name: material
+  font:
+    text: Mulish
+  palette:
+    scheme: default
+    primary: teal
+    accent: teal
+  features:
+    # Temporarily deactivated to provide support for Discord browser + anchor links
+    - navigation.instant
+    - navigation.top
+    - navigation.tracking
+    - navigation.sections
+    - search.suggest
+    - search.highlight
+    - search.share
+  icon:
+    repo: fontawesome/brands/git-square
+
+extra:
+  social:
+    - icon: fontawesome/brands/reddit-alien
+      link: https://reddit.com/r/MHOC
+    - icon: fontawesome/brands/git
+      link: https://github.com/redditmhoc/welcome-site
+
+plugins:
+  - git-revision-date
