@@ -1,5 +1,5 @@
 # Project Information
-site_name: Welcome to /r/MHoC
+site_name: /r/MHoC
 site_url: https://mhoc.co.uk
 copyright: For use only in relation to the /r/MHoC Reddit community.
 repo_url: https://github.com/redditmhoc/welcome-site
@@ -12,9 +12,7 @@ theme:
   font:
     text: Mulish
   palette:
-    scheme: default
-    primary: teal
-    accent: teal
+    scheme: mhoc
   features:
     # Temporarily deactivated to provide support for Discord browser + anchor links
     - navigation.instant
@@ -26,6 +24,9 @@ theme:
     - search.share
   icon:
     repo: fontawesome/brands/git-square
+
+extra_css: 
+ - stylesheets/mhoc.css
 
 extra:
   social:
